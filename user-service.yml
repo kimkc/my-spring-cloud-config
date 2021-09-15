@@ -10,7 +10,8 @@ spring:
 #     url: jdbc:mariadb://module-mydb:3306/mydb
     url: jdbc:mariadb://skuser20-module-3-mariadb.ckei73ux6bwm.ap-northeast-1.rds.amazonaws.com:3306/mydb    
     username: root
-    password: 1234
+#     password: 1234
+    password: test1234
     
 order_service:
   url: http://ORDER-SERVICE/%s/orders
